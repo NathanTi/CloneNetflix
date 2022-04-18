@@ -44,7 +44,7 @@ header nav a:hover{
 /*Filme Principal*/
 .filme-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)),  url('/img/capa-house.jpg');
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)),  url('/img/capa-sorte.jpg');
     
     height: 550px;
     background-size: cover;
@@ -95,7 +95,7 @@ header nav a:hover{
 }
 
 .filme-principal .container{
-    width: 70%;
+    width: 100%;
 }
 
 .box-filme{
@@ -112,6 +112,7 @@ header nav a:hover{
 }
 
 .destaque {
+    color: white;
     font-size: 18px;
     margin-left: 15px;
     font-family: 'Arial Black', Helvetica, sans-serif
