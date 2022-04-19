@@ -1,4 +1,4 @@
-# Clone Netflix :heartpulse:
+# Clone Netflix
 
 ## Objetivos Do Projeto :mega:
 Projeto para plataforma Dio. com intenção de aprofundar conhecimentos em desenvolvimento web.
