@@ -1,16 +1,16 @@
-# Clone Netflix
+# GAMEFLIX 🟥 (Clone Netflix) 
 
 ## Objetivos Do Projeto :mega:
-Projeto para plataforma Dio. com intenção de aprofundar conhecimentos em desenvolvimento web.
+Projeto para plataforma Dio, Para o Bootcamp "Carrefour Web Developer", com Intenção de Aprimorar os Conhecimentos em Desenvolvimento Web.
 
 ## Atenção :warning:
-Este projeto tem como fins apenas o treinamento educacional em determinadas tecnologias, nenhum uso comercial será ou deverá ser retirado deste projeto.
+Este Projeto não Teve, Tem ou Terá Nenhum Fim Comercial. O Desenvolvimento Desse Projeto tem Como Fins: Aprofundar Conhecimentos em Desenvolvimento Web e Outras Ferramentas atreladas ao Mesmo. 
 
 ## Ferramentas Utilizadas :wrench:
  - Visual Studio Code.
- - Extensão Live Server. (teste)
- - Owl Carousel. (carrosel)
+ - Extensão Live Server. (teste de funcionamento)
+ - Owl Carousel. (carrosel de jogos)
  - Html, Css e Js.
  - Font Awesome. (Simbolo dos botões)
  - jquery. (carrosel)
- - The Movie Database. (Descrições e miniaturas)
+ - Sites de Database de Jogos e afins. (Descrições e miniaturas)
