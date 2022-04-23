@@ -1,3 +1,4 @@
+/*Responsividade Botão Principal*/
 @media screen and (max-width: 700px) {
     header .container{
         display: flex;
@@ -11,8 +12,9 @@
     }
 }
 
+/*Responsividade da Descrição do Filme Principal*/
 @media screen and (min-width: 1000px) {
     .descricao{
-        width: 40%;
+        width: 60%;
     }
 }

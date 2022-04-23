@@ -1,3 +1,4 @@
+//Configuração Do Carrosel de Jogos.
 $('.owl-carousel').owlCarousel({
     loop:true,
     margin:10,

@@ -1,14 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
+    <!--Declaração Inicial-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Arquivo Principal Cde Estilo (Css)-->
     <link rel="stylesheet" href="style/main.css">
 
-    <!--Arquivos Responsivo-->
+    <!--Arquivos Responsivo (Css)-->
     <link rel="stylesheet" href="style/responsive.css">
 
-    <!--Arquivos Owl Css-->
+    <!--Arquivos Owl Css (Carrosel)-->
     <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
     <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
 
@@ -17,41 +20,48 @@
 
 <body>
     <header>
+        <!--Cabeçalho da Página-->
         <div class="container">
-            <h2 class="logo">NETFLIX</h2>
+            <h2 class="logo">GAMEFLIX</h2>
             <nav>
                 <a href="#">Início</a>
-                <a href="#">Séries</a>
-                <a href="#">Filmes</a>
-                <a href="#">Documentários</a>
+                <a href="#carroselPopulares">Populares</a>
+                <a href="#carroselDestaques">Destaque</a>
+                <a href="https://github.com/NathanTi/CloneNetflix">Sobre</a>
             </nav>
         </div>
     </header>
 
     <main>
+        <!--Filme em Destaque e seus elementos.-->
         <div class="filme-principal">
             <div class="container">
-                <h3 class="titulo">ATÉ QUE A SORTE NOS SEPARE 3</h3>
-                <p class="descricao">Após perder a herança da família em Las Vegas, Tino, já falido, 
-                    arranja um trabalho de camelô na rua. Um dia é atropelado pelo filho do empresário 
-                    mais rico do país, ficando assim por meses em coma. Quando acorda, Tino descobre que 
-                    o homem que o atropelou está apaixonado por sua filha, e os dois pretendem se casar.</p>
+                <h3 class="titulo">METAL GEAR SOLID V: THE PHANTOM PAIN</h3>
+                <p class="descricao">Inaugurando uma nova era para a franquia Metal Gear com tecnologia de ponta 
+                    alimentada pelo Fox Engine, Metal Gear Solid V: The Phantom Pain irá proporcionar aos jogadores 
+                    uma experiência de jogo de primeira linha com liberdade tática para realizar missões em mundo
+                    aberto.</p>
                 <div class="botoes">
-                    <button role="button" class="botao">
-                        <i class="fa-solid fa-play"></i>
-                        ASSISTIR AGORA
-                    </button>
-                    <button role="button" class="botao">
-                        <i class="fa-solid fa-circle-info"></i>
-                        MAIS INFORMAÇÕES
-                    </button>
+                    <a id= "ab" class="btnComprar" href="https://store.steampowered.com/app/287700/METAL_GEAR_SOLID_V_THE_PHANTOM_PAIN">
+                        <button role="button" class="botao">
+                            <i class="fa-solid fa-money-bill"></i>
+                            COMPRAR AGORA
+                        </button>
+                    </a>
+                    <a class="btnAssitir" href="https://www.youtube.com/watch?v=5EdjbvgoSgE">
+                        <button role="button" class="botao">
+                            <i class="fa-solid fa-play"></i>
+                            ASSISTIR CONTEÚDO
+                        </button>
+                    </a>
                 </div>
             </div>
         </div>
     </main>
 
-    <div class="carrosel-filmes">
-        <h3 class="destaque">✰ Destaque</h3>
+    <!--Carrosel de Jogos em Destaque e Carrosel de Jogos Populares-->
+    <div id="carroselDestaques" class="carrosel-filmes">
+        <h3 class="destaque">✰ Destaques</h3>
         <div class="owl-carousel owl-theme">
             <div class="item">
                 <img class="box-filme" src="img/mini1.jpg" alt="" srcset="">
@@ -72,13 +82,13 @@
                 <img class="box-filme" src="img/mini6.jpg" alt="" srcset="">
             </div>
             <div class="item">
-                <img class="box-filme" src="img/mini7.jpg" alt="" srcset="">
+                <img class="box-filme" src="img/mini7.jpeg" alt="" srcset="">
             </div>
             <div class="item">
                 <img class="box-filme" src="img/mini8.jpg" alt="" srcset="">
             </div>
             <div class="item">
-                <img class="box-filme" src="img/mini9.jpg" alt="" srcset="">
+                <img class="box-filme" src="img/mini9.webp" alt="" srcset="">
             </div>
             <div class="item">
                 <img class="box-filme" src="img/mini10.jpg" alt="" srcset="">
@@ -86,14 +96,14 @@
         </div>
     </div>
 
-    <div class="carrosel-filmes">
+    <div id="carroselPopulares" class="carrosel-filmes">
         <h3 class="destaque">✦ Populares</h3>
         <div class="owl-carousel owl-theme">
             <div class="item">
-                <img class="box-filme" src="img/mini11.jpg" alt="" srcset="">
+                <img class="box-filme" src="img/mini11.png" alt="" srcset="">
             </div>
             <div class="item">
-                <img class="box-filme" src="img/mini12.jpg" alt="" srcset="">
+                <img class="box-filme" src="img/mini12.jpeg" alt="" srcset="">
             </div>
             <div class="item">
                 <img class="box-filme" src="img/mini13.jpg" alt="" srcset="">
@@ -122,6 +132,7 @@
         </div>
     </div>
 
+    <!--Importação Dos Logos dos botões (FontAwesome) e dos arquivos JavaScript.-->
     <script src="https://kit.fontawesome.com/dbd680702a.js" crossorigin="anonymous"></script>
     <script src="js/owl/jquery.min.js"></script>
     <script src="js/owl/owl.carousel.min.js"></script>
