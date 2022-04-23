@@ -1,4 +1,4 @@
-# GAMEFLIX 🟥 (Clone Netflix) 
+# GAMEFLIX 🔴
 ![Screenshot](https://github.com/NathanTi/CloneNetflix/blob/master/img/src1.png?raw=true)
 ![Screenshot](https://github.com/NathanTi/CloneNetflix/blob/master/img/src2.png?raw=true)
 
