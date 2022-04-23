@@ -1,5 +1,5 @@
 # GAMEFLIX 🟥 (Clone Netflix) 
-![Screenshot](https://github.com/NathanTi/CloneNetflix/blob/master/img/scr1.png?raw=true)
+![Screenshot](https://github.com/NathanTi/CloneNetflix/blob/master/img/src1.png?raw=true)
 ![Screenshot](https://github.com/NathanTi/CloneNetflix/blob/master/img/src2.png?raw=true)
 
 ## Objetivos Do Projeto :mega:
