@@ -1,4 +1,6 @@
 # GAMEFLIX 🟥 (Clone Netflix) 
+![Screenshot](https://github.com/NathanTi/CloneNetflix/blob/master/img/scr1.png?raw=true)
+![Screenshot](https://github.com/NathanTi/CloneNetflix/blob/master/img/src2.png?raw=true)
 
 ## Objetivos Do Projeto :mega:
 Projeto para plataforma Dio, Para o Bootcamp "Carrefour Web Developer", com Intenção de Aprimorar os Conhecimentos em Desenvolvimento Web.
